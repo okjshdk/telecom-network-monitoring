@@ -11,8 +11,8 @@
 - Tối ưu pipeline bằng windowing và xử lý streaming trên Dataflow, lưu dữ liệu vào BigQuery cho phân tích SQL.
 
 ## 1. Tổng quan
-  Dự án này xây dựng 1 pipeline end-to-end để thu thập, xử lý và lưu trữ dữ liệu game events \
-  từ các trò chơi online theo giời gian thực vào data lake.
+  Dự án xây dựng hệ thống xử lý dữ liệu thời gian thực cho các sự kiện mạng viễn thông, từ thu thập dữ liệu đến phân tích và tổng hợp chỉ số hiệu năng. Hệ thống cung cấp dữ liệu đáng tin cậy và các KPI gần thời gian thực, hỗ trợ giám sát chất lượng mạng và ra quyết định vận hành.
+
 
 ## 2. Kiến trúc hệ thống
 <img width="1636" height="654" alt="system-architecture" src="https://github.com/okjshdk/telecom-network-monitoring/blob/main/architecture.png" />
