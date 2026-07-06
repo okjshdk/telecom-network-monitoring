@@ -3,7 +3,7 @@
 ## Điểm nổi bật
 
 - Thiết kế và triển khai pipeline ETL real-time trên Google Cloud sử dụng Apache Beam và Dataflow để xử lý dữ liệu sự kiện mạng viễn thông.
-- Xây dựng kiến trúc Lakehouse (Bronze–Silver–Gold) với Cloud Storage và BigQuery, hỗ trợ dữ liệu từ thô đến sẵn sàng phân tích.
+- Xây dựng kiến trúc Medallion (Bronze–Silver–Gold) với Cloud Storage và BigQuery, hỗ trợ dữ liệu từ thô đến sẵn sàng phân tích.
 - Xử lý streaming từ Pub/Sub theo cửa sổ 60 giây, đảm bảo phân tích gần thời gian thực.
 - Thực hiện làm sạch và kiểm tra chất lượng dữ liệu (loại bỏ giá trị thiếu, sai lệch và ngoài ngưỡng).
 - Tạo các đặc trưng phân tích như chất lượng mạng, độ trễ, thông lượng và giờ cao điểm.
