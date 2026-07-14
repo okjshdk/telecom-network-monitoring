@@ -1,6 +1,10 @@
-# Data Engineer Project | End-to-end Telecom Network Monitoring Pipeline (GCP)
+# Data Engineer Project | End-to-end Telecom Network Monitoring Streaming Pipeline (GCP)
 
-## Điểm nổi bật
+
+## 1. Tổng quan
+  Dự án xây dựng hệ thống xử lý dữ liệu thời gian thực cho các sự kiện mạng viễn thông, từ thu thập dữ liệu đến phân tích và tổng hợp chỉ số hiệu năng. Hệ thống cung cấp dữ liệu đáng tin cậy và các KPI gần thời gian thực, hỗ trợ giám sát chất lượng mạng và ra quyết định vận hành.
+  
+## 2. Điểm nổi bật
 
 - Thiết kế và triển khai pipeline ETL real-time trên Google Cloud sử dụng Apache Beam và Dataflow để xử lý dữ liệu sự kiện mạng viễn thông.
 - Xây dựng kiến trúc Medallion (Bronze–Silver–Gold) với Cloud Storage và BigQuery, hỗ trợ dữ liệu từ thô đến sẵn sàng phân tích.
@@ -10,23 +14,22 @@
 - Tổng hợp KPI hiệu suất giúp giám sát trạm phát sóng phục vụ dashboard và báo cáo vận hành.
 - Tối ưu pipeline bằng windowing và xử lý streaming trên Dataflow, lưu dữ liệu vào BigQuery cho phân tích SQL.
 
-## 1. Tổng quan
-  Dự án xây dựng hệ thống xử lý dữ liệu thời gian thực cho các sự kiện mạng viễn thông, từ thu thập dữ liệu đến phân tích và tổng hợp chỉ số hiệu năng. Hệ thống cung cấp dữ liệu đáng tin cậy và các KPI gần thời gian thực, hỗ trợ giám sát chất lượng mạng và ra quyết định vận hành.
 
 
-## 2. Kiến trúc hệ thống
+
+## 3. Kiến trúc hệ thống
 <img width="1636" height="654" alt="system-architecture" src="https://github.com/okjshdk/telecom-network-monitoring/blob/main/architecture.png" />
 
 
 
-## 3. Công nghệ sử dụng
+## 5. Công nghệ sử dụng
   - Storage: Cloud Storage (GCS)
   - Streaming/Message Queue: Pub/Sub
   - Processing & Orchestration: DataFlow + Apache Beam
   - Dashboard: Data Studio
   - Infrastructure: GCP
 
-## 4. Use Case
+## 5. Use Case
   ### Telecom Tower Performance Dashboard
   - Giám sát hiệu năng của từng trạm BTS thông qua các KPI chính.
   - Phát hiện sớm các trạm có dấu hiệu hoạt động bất thường.
